@@ -1,7 +1,7 @@
 import { BrowserRouter as Router } from 'react-router-dom';
 import { HelmetProvider } from 'react-helmet-async';
 import { ThemeProvider } from './components/theme-provider';
-import Approutes from './routes';
+import Approutes from './routes/routes';
 import './App.css'
 
 function App() {
