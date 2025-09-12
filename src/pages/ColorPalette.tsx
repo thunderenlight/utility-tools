@@ -21,7 +21,7 @@ export const ColorPalette = () => {
   return (
     <>
       <Helmet>
-        <title>Color Palette Generator - Create Beautiful Color Combinations | Utility Tools</title>
+        <title>Color Palette Generator - Create Beautiful Color Combinations | Apple Tools</title>
         <meta name="description" content="Generate beautiful color palettes for your design projects. Copy hex codes instantly and create harmonious color schemes." />
       </Helmet>
       

@@ -58,7 +58,7 @@ export const UnitConverter = () => {
       <div className="container mx-auto px-4 py-8 max-w-2xl">
         <Card>
           <CardHeader className="text-center">
-            <CardTitle className="text-2xl">Unit Converter</CardTitle>
+            <CardTitle className="text-3xl font-semibold mb-2">Unit Converter</CardTitle>
             <CardDescription>
               Convert between different units instantly and accurately
             </CardDescription>
@@ -66,6 +66,7 @@ export const UnitConverter = () => {
           <CardContent className="space-y-6">
             <Select value={category} onValueChange={setCategory}>
               <SelectTrigger>
+                <h2>Choose Measurement Type: </h2>
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>
