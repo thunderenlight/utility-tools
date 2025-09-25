@@ -1,8 +1,0 @@
-import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { Button } from "@/components/ui/Button";
-import { useTheme } from "@/components/theme-provider";
-import { Wrench, Moon, Sun } from "lucide-react";
-export const Header = () => {
-    const { theme, setTheme } = useTheme();
-    return (_jsx("header", { className: "sticky top-0 z-50 w-full border-b border/40 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60", children: _jsxs("div", { className: "container flex h-14 max-w-screen-2xl items-center justify-between", children: [_jsx("div", { className: "flex items-center space-x-2", children: _jsxs("a", { href: "/", className: "flex items-center gap-3", children: [_jsx(Wrench, { className: "h-7 w-7 text-primary", "aria-hidden": true }), _jsx("h1", { className: "text-xl font-semibold", children: "Utility Tools" })] }) }), _jsxs("nav", { className: "hidden md:flex items-center space-x-6 text-sm font-medium", children: [_jsx("a", { href: "/", className: "transition-colors hover:text-foreground/80", children: "Home " }), _jsx("a", { href: "/password-generator", className: "transition-colors hover:text-foreground/80", children: "Password " }), _jsx("a", { href: "/color-palette", className: "transition-colors hover:text-foreground/80", children: "Colors " }), _jsx("a", { href: "/unit-converter", className: "transition-colors hover:text-foreground/80", children: "Convert " })] }), _jsx(Button, { variant: "ghost", size: "sm", onClick: () => setTheme(theme === "light" ? "dark" : "light"), children: theme === "light" ? _jsx(Moon, { className: "h-4 w-4" }) : _jsx(Sun, { className: "h-4 w-4" }) })] }) }));
-};
