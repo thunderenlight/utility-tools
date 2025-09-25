@@ -11,7 +11,7 @@ export const Header = () => {
         <div className="flex items-center space-x-2">
           <a href="/" className="flex items-center gap-3">
             <Wrench className="h-7 w-7 text-primary" aria-hidden />
-            <h1 className="text-xl font-semibold">Utility Tools</h1>
+          <h1 className="text-xl font-semibold">Utility Tools</h1>
           </a>
         </div>
         

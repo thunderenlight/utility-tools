@@ -26,7 +26,7 @@ const conversions = {
   }
 };
 
-export const UnitConverter = () => {
+export const uc = () => {
   const [category, setCategory] = useState('length');
   const [fromUnit, setFromUnit] = useState('meter');
   const [toUnit, setToUnit] = useState('kilometer');
@@ -98,7 +98,7 @@ export const UnitConverter = () => {
           <CardContent className="space-y-6">
             <Select value={category} onValueChange={handleCategoryChange}>
               <SelectTrigger>
-                <span>Choose Measurement Type !!!: </span>
+                <span>Choose Measurement Type !!! Shit: </span>
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>

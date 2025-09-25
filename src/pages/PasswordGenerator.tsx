@@ -55,7 +55,7 @@ export const PasswordGenerator = () => {
         <meta name="description" content="Generate strong, secure passwords with customizable options. Include uppercase, lowercase, numbers, and symbols for maximum security." />
       </Helmet>
       
-      <div className="container mx-auto px-4 py-8 max-w-2xl">
+      <div className="mx-auto px-4 py-8 max-w-2xl">
         <Card>
           <CardHeader className="text-center">
             <CardTitle className="text-2xl">Password Generator</CardTitle>
