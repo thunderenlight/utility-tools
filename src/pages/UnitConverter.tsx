@@ -83,7 +83,7 @@ export const UnitConverter = () => {
   return (
     <>
       <Helmet>
-        <title> **** Unit Converter - Convert Between Units Instantly | Utility Tools</title>
+        <title> Unit Converter - Convert Between Units Instantly | Utility Tools</title>
         <meta name="description" content="Convert between different units of measurement including length, weight, temperature, and more. Fast and accurate unit conversion tool." />
       </Helmet>
       
@@ -98,7 +98,7 @@ export const UnitConverter = () => {
           <CardContent className="space-y-6">
             <Select value={category} onValueChange={handleCategoryChange}>
               <SelectTrigger>
-                <span>Choose Measurement Type !!!: </span>
+                <span>Choose Measurement Type : </span>
                 <SelectValue />
               </SelectTrigger>
               <SelectContent>

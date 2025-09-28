@@ -25,7 +25,7 @@ export const ColorPalette = () => {
         <meta name="description" content="Generate beautiful color palettes for your design projects. Copy hex codes instantly and create harmonious color schemes." />
       </Helmet>
       
-      <div className="container mx-auto px-4 py-8 max-w-2xl">
+      <div className="mx-auto px-4 py-8 max-w-2xl">
         <Card>
           <CardHeader className="text-center">
             <CardTitle className="text-2xl">Color Palette Generator</CardTitle>
